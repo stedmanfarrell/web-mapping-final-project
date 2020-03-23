@@ -3,167 +3,11 @@
   "features": [{
     "type": "Feature",
     "properties": {
-      "shortName": "BB2",
-      "longName": "Head of Bergen Basin",
-      "fecalLevel": 100,
-      "date": "7/13/2000",
-      "hour": 12
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.82216, 40.66004]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "BB4",
-      "longName": "Mouth of Bergen Basin",
-      "fecalLevel": 500,
-      "date": "8/10/2000",
-      "hour": 1
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.82316, 40.65164]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "F1",
-      "longName": "Mouth of Fresh Creek",
-      "fecalLevel": 2,
-      "date": "8/29/2000",
-      "hour": 1
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.88413, 40.64315]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "F5",
-      "longName": "Head of Fresh Creek",
-      "fecalLevel": 700,
-      "date": "9/21/2000",
-      "hour": 2
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.87896, 40.63878]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "HC1",
-      "longName": "Hendrix Creek Head",
-      "fecalLevel": 22,
-      "date": "5/23/2001",
-      "hour": 4
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.87891, 40.65359]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "HC2",
-      "longName": "Hendrix Creek by 26th Ward Outfall",
-      "fecalLevel": 244,
-      "date": "6/19/2001",
-      "hour": 3
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.87684, 40.65078]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "HC3",
-      "longName": "Hendrix Creek under Belt Pkwy",
-      "fecalLevel": 677,
-      "date": "7/23/2001",
-      "hour": 6
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.86756, 40.63856]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "J10",
-      "longName": "Paerdegat Basin",
-      "fecalLevel": 2,
-      "date": "7/13/2000",
-      "hour": 8
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.89472, 40.62167]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "J11",
-      "longName": "Sheepshead Bay",
-      "fecalLevel": 3,
-      "date": "8/10/2000",
-      "hour": 8
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.93133, 40.58167]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "J12",
-      "longName": "Grassy Bay",
-      "fecalLevel": 4,
-      "date": "8/29/2000",
-      "hour": 7
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.80633, 40.633]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "J14",
-      "longName": "West of Broad Channel",
-      "fecalLevel": 999,
-      "date": "9/21/2000",
-      "hour": 8
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.82378, 40.60917]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "J16",
-      "longName": "Horse Channel",
-      "fecalLevel": 777,
-      "date": "5/23/2001",
-      "hour": 23
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.84761, 40.61143]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "J2",
-      "longName": "Mill Basin",
-      "fecalLevel": 444,
-      "date": "6/19/2001",
-      "hour": 22
+      "SampleLocation": "J2",
+      "SampleDate": "12/16/2019",
+      "DryWet": "W",
+      "FecalCount": 96,
+      "Month": 11
     },
     "geometry": {
       "type": "Point",
@@ -172,24 +16,11 @@
   }, {
     "type": "Feature",
     "properties": {
-      "shortName": "J3",
-      "longName": "Canarsie Pier",
-      "fecalLevel": 33,
-      "date": "7/23/2001",
-      "hour": 17
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.88283, 40.627]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "J5",
-      "longName": "Railroad Trestle",
-      "fecalLevel": 2,
-      "date": "7/13/2000",
-      "hour": 7
+      "SampleLocation": "J5",
+      "SampleDate": "12/16/2019",
+      "DryWet": "W",
+      "FecalCount": 119,
+      "Month": 11
     },
     "geometry": {
       "type": "Point",
@@ -198,89 +29,37 @@
   }, {
     "type": "Feature",
     "properties": {
-      "shortName": "J7",
-      "longName": "Mouth of Bergen Basin",
-      "fecalLevel": 2,
-      "date": "8/10/2000",
-      "hour": 20
+      "SampleLocation": "J3",
+      "SampleDate": "12/16/2019",
+      "DryWet": "W",
+      "FecalCount": 176,
+      "Month": 11
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-73.82083, 40.64533]
+      "coordinates": [-73.88283, 40.627]
     }
   }, {
     "type": "Feature",
     "properties": {
-      "shortName": "J8",
-      "longName": "Spring Creek",
-      "fecalLevel": 3,
-      "date": "8/29/2000",
-      "hour": 20
+      "SampleLocation": "J10",
+      "SampleDate": "12/16/2019",
+      "DryWet": "W",
+      "FecalCount": 189,
+      "Month": 11
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-73.85117, 40.64283]
+      "coordinates": [-73.89472, 40.62167]
     }
   }, {
     "type": "Feature",
     "properties": {
-      "shortName": "J9A",
-      "longName": "Fresh Creek Buoy \"C21\"",
-      "fecalLevel": 4,
-      "date": "9/21/2000",
-      "hour": 7
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.87367, 40.63383]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "JA1",
-      "longName": "Jamaica WWTP Outfall",
-      "fecalLevel": 999,
-      "date": "5/23/2001",
-      "hour": 7
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.813, 40.643]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "N9A",
-      "longName": "Coney Is. Outfall",
-      "fecalLevel": 777,
-      "date": "6/19/2001",
-      "hour": 7
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.9355, 40.56783]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "PB2",
-      "longName": "Middle of Paerdegat Basin",
-      "fecalLevel": 444,
-      "date": "7/23/2001",
-      "hour": 7
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.90967, 40.628]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "shortName": "PB3",
-      "longName": "Mouth of Paerdegat Basin",
-      "fecalLevel": 33,
-      "date": "7/13/2000",
-      "hour": 7
+      "SampleLocation": "PB3",
+      "SampleDate": "12/16/2019",
+      "DryWet": "W",
+      "FecalCount": 264,
+      "Month": 11
     },
     "geometry": {
       "type": "Point",
@@ -289,11 +68,219 @@
   }, {
     "type": "Feature",
     "properties": {
-      "shortName": "SP1",
-      "longName": "Spring Creek Head",
-      "fecalLevel": 2,
-      "date": "8/10/2000",
-      "hour": 20
+      "SampleLocation": "SP2",
+      "SampleDate": "12/16/2019",
+      "DryWet": "W",
+      "FecalCount": 268,
+      "Month": 11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.85417, 40.6445]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "12/16/2019",
+      "DryWet": "W",
+      "FecalCount": 279,
+      "Month": 11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "12/16/2019",
+      "DryWet": "W",
+      "FecalCount": 282,
+      "Month": 11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB2",
+      "SampleDate": "12/16/2019",
+      "DryWet": "W",
+      "FecalCount": 290,
+      "Month": 11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.90967, 40.628]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "12/16/2019",
+      "DryWet": "W",
+      "FecalCount": 292,
+      "Month": 11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "12/16/2019",
+      "DryWet": "W",
+      "FecalCount": 425,
+      "Month": 11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "12/16/2019",
+      "DryWet": "W",
+      "FecalCount": 590,
+      "Month": 11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "12/16/2019",
+      "DryWet": "W",
+      "FecalCount": 766,
+      "Month": 11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB2",
+      "SampleDate": "12/16/2019",
+      "DryWet": "W",
+      "FecalCount": 856,
+      "Month": 11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82216, 40.66004]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "12/12/2019",
+      "DryWet": "W",
+      "FecalCount": 20,
+      "Month": 11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "12/12/2019",
+      "DryWet": "W",
+      "FecalCount": 40,
+      "Month": 11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "12/12/2019",
+      "DryWet": "W",
+      "FecalCount": 64,
+      "Month": 11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "12/12/2019",
+      "DryWet": "W",
+      "FecalCount": 70,
+      "Month": 11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "12/12/2019",
+      "DryWet": "W",
+      "FecalCount": 240,
+      "Month": 11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "12/12/2019",
+      "DryWet": "W",
+      "FecalCount": 240,
+      "Month": 11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "12/12/2019",
+      "DryWet": "W",
+      "FecalCount": 370,
+      "Month": 11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "12/11/2019",
+      "DryWet": "W",
+      "FecalCount": 3600,
+      "Month": 11
     },
     "geometry": {
       "type": "Point",
@@ -302,15 +289,6151 @@
   }, {
     "type": "Feature",
     "properties": {
-      "shortName": "SP2",
-      "longName": "Spring Creek Head",
-      "fecalLevel": 2,
-      "date": "8/29/2000",
-      "hour": 20
+      "SampleLocation": "J9A",
+      "SampleDate": "11/20/2019",
+      "DryWet": "W",
+      "FecalCount": 4,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "11/20/2019",
+      "DryWet": "W",
+      "FecalCount": 8,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "11/20/2019",
+      "DryWet": "W",
+      "FecalCount": 12,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "11/20/2019",
+      "DryWet": "W",
+      "FecalCount": 16,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "11/20/2019",
+      "DryWet": "W",
+      "FecalCount": 18,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "11/20/2019",
+      "DryWet": "W",
+      "FecalCount": 28,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "11/20/2019",
+      "DryWet": "W",
+      "FecalCount": 34,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "11/20/2019",
+      "DryWet": "W",
+      "FecalCount": 60,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "11/20/2019",
+      "DryWet": "W",
+      "FecalCount": 112,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "11/20/2019",
+      "DryWet": "W",
+      "FecalCount": 132,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "11/20/2019",
+      "DryWet": "W",
+      "FecalCount": 168,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "11/14/2019",
+      "DryWet": "D",
+      "FecalCount": 6,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "11/14/2019",
+      "DryWet": "D",
+      "FecalCount": 6,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "11/14/2019",
+      "DryWet": "D",
+      "FecalCount": 14,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "11/14/2019",
+      "DryWet": "D",
+      "FecalCount": 14,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "11/14/2019",
+      "DryWet": "D",
+      "FecalCount": 22,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "11/14/2019",
+      "DryWet": "D",
+      "FecalCount": 30,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "11/14/2019",
+      "DryWet": "D",
+      "FecalCount": 220,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "11/14/2019",
+      "DryWet": "D",
+      "FecalCount": 370,
+      "Month": 10
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "10/29/2019",
+      "DryWet": "W",
+      "FecalCount": 84,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "10/29/2019",
+      "DryWet": "W",
+      "FecalCount": 96,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "10/29/2019",
+      "DryWet": "W",
+      "FecalCount": 811,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "10/29/2019",
+      "DryWet": "W",
+      "FecalCount": 937,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "10/29/2019",
+      "DryWet": "W",
+      "FecalCount": 1135,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "10/29/2019",
+      "DryWet": "W",
+      "FecalCount": 2300,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "10/29/2019",
+      "DryWet": "W",
+      "FecalCount": 2500,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "10/28/2019",
+      "DryWet": "W",
+      "FecalCount": 70,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "10/28/2019",
+      "DryWet": "W",
+      "FecalCount": 300,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "10/28/2019",
+      "DryWet": "W",
+      "FecalCount": 308,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "10/28/2019",
+      "DryWet": "W",
+      "FecalCount": 580,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "10/28/2019",
+      "DryWet": "W",
+      "FecalCount": 945,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "10/28/2019",
+      "DryWet": "W",
+      "FecalCount": 1154,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "10/28/2019",
+      "DryWet": "W",
+      "FecalCount": 1400,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "10/28/2019",
+      "DryWet": "W",
+      "FecalCount": 2100,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "10/28/2019",
+      "DryWet": "W",
+      "FecalCount": 4800,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "10/23/2019",
+      "DryWet": "W",
+      "FecalCount": 775,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "10/22/2019",
+      "DryWet": "W",
+      "FecalCount": 24,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "10/22/2019",
+      "DryWet": "W",
+      "FecalCount": 24,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "10/22/2019",
+      "DryWet": "W",
+      "FecalCount": 70,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "10/22/2019",
+      "DryWet": "W",
+      "FecalCount": 90,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "10/22/2019",
+      "DryWet": "W",
+      "FecalCount": 622,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "10/22/2019",
+      "DryWet": "W",
+      "FecalCount": 757,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "10/22/2019",
+      "DryWet": "W",
+      "FecalCount": 1180,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "10/21/2019",
+      "DryWet": "W",
+      "FecalCount": 8,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "10/21/2019",
+      "DryWet": "W",
+      "FecalCount": 10,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "10/21/2019",
+      "DryWet": "W",
+      "FecalCount": 16,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "10/21/2019",
+      "DryWet": "W",
+      "FecalCount": 28,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "10/21/2019",
+      "DryWet": "W",
+      "FecalCount": 36,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "10/21/2019",
+      "DryWet": "W",
+      "FecalCount": 44,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB3",
+      "SampleDate": "10/21/2019",
+      "DryWet": "W",
+      "FecalCount": 92,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89983, 40.62342]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP2",
+      "SampleDate": "10/21/2019",
+      "DryWet": "W",
+      "FecalCount": 124,
+      "Month": 9
     },
     "geometry": {
       "type": "Point",
       "coordinates": [-73.85417, 40.6445]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "10/21/2019",
+      "DryWet": "W",
+      "FecalCount": 150,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB2",
+      "SampleDate": "10/21/2019",
+      "DryWet": "W",
+      "FecalCount": 176,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.90967, 40.628]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "10/21/2019",
+      "DryWet": "W",
+      "FecalCount": 381,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "10/21/2019",
+      "DryWet": "W",
+      "FecalCount": 845,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "10/21/2019",
+      "DryWet": "W",
+      "FecalCount": 1060,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "10/21/2019",
+      "DryWet": "W",
+      "FecalCount": 1273,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "10/21/2019",
+      "DryWet": "W",
+      "FecalCount": 2400,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB2",
+      "SampleDate": "10/21/2019",
+      "DryWet": "W",
+      "FecalCount": 2600,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82216, 40.66004]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "10/10/2019",
+      "DryWet": "W",
+      "FecalCount": 48,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "10/10/2019",
+      "DryWet": "W",
+      "FecalCount": 340,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "10/10/2019",
+      "DryWet": "W",
+      "FecalCount": 410,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "10/10/2019",
+      "DryWet": "W",
+      "FecalCount": 748,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "10/10/2019",
+      "DryWet": "W",
+      "FecalCount": 7727,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "10/10/2019",
+      "DryWet": "W",
+      "FecalCount": 29000,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "10/10/2019",
+      "DryWet": "W",
+      "FecalCount": 51000,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "10/9/2019",
+      "DryWet": "D",
+      "FecalCount": 2700,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "10/8/2019",
+      "DryWet": "D",
+      "FecalCount": 19,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "10/8/2019",
+      "DryWet": "D",
+      "FecalCount": 26,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "10/8/2019",
+      "DryWet": "D",
+      "FecalCount": 29,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "10/8/2019",
+      "DryWet": "D",
+      "FecalCount": 35,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "10/8/2019",
+      "DryWet": "D",
+      "FecalCount": 39,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP2",
+      "SampleDate": "10/8/2019",
+      "DryWet": "D",
+      "FecalCount": 40,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.85417, 40.6445]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "10/8/2019",
+      "DryWet": "D",
+      "FecalCount": 56,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "10/8/2019",
+      "DryWet": "D",
+      "FecalCount": 78,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "10/8/2019",
+      "DryWet": "D",
+      "FecalCount": 92,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "10/8/2019",
+      "DryWet": "D",
+      "FecalCount": 150,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "10/8/2019",
+      "DryWet": "D",
+      "FecalCount": 153,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB2",
+      "SampleDate": "10/8/2019",
+      "DryWet": "D",
+      "FecalCount": 310,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.90967, 40.628]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB2",
+      "SampleDate": "10/8/2019",
+      "DryWet": "D",
+      "FecalCount": 380,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82216, 40.66004]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB3",
+      "SampleDate": "10/8/2019",
+      "DryWet": "D",
+      "FecalCount": 510,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89983, 40.62342]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "10/8/2019",
+      "DryWet": "D",
+      "FecalCount": 800,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "10/8/2019",
+      "DryWet": "D",
+      "FecalCount": 5900,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "10/2/2019",
+      "DryWet": "D",
+      "FecalCount": 95,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "10/1/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "10/1/2019",
+      "DryWet": "D",
+      "FecalCount": 10,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "10/1/2019",
+      "DryWet": "D",
+      "FecalCount": 62,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "10/1/2019",
+      "DryWet": "D",
+      "FecalCount": 80,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "10/1/2019",
+      "DryWet": "D",
+      "FecalCount": 92,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "10/1/2019",
+      "DryWet": "D",
+      "FecalCount": 108,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "10/1/2019",
+      "DryWet": "D",
+      "FecalCount": 700,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "10/1/2019",
+      "DryWet": "D",
+      "FecalCount": 900,
+      "Month": 9
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "9/30/2019",
+      "DryWet": "D",
+      "FecalCount": 2,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "9/30/2019",
+      "DryWet": "D",
+      "FecalCount": 2,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "9/30/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "9/30/2019",
+      "DryWet": "D",
+      "FecalCount": 8,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "9/30/2019",
+      "DryWet": "D",
+      "FecalCount": 12,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "9/30/2019",
+      "DryWet": "D",
+      "FecalCount": 12,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "9/30/2019",
+      "DryWet": "D",
+      "FecalCount": 14,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "9/30/2019",
+      "DryWet": "D",
+      "FecalCount": 22,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "9/26/2019",
+      "DryWet": "D",
+      "FecalCount": 6,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "9/26/2019",
+      "DryWet": "D",
+      "FecalCount": 7,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "9/26/2019",
+      "DryWet": "D",
+      "FecalCount": 26,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "9/26/2019",
+      "DryWet": "D",
+      "FecalCount": 54,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "9/26/2019",
+      "DryWet": "D",
+      "FecalCount": 240,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "9/26/2019",
+      "DryWet": "D",
+      "FecalCount": 320,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "9/26/2019",
+      "DryWet": "D",
+      "FecalCount": 330,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "9/25/2019",
+      "DryWet": "D",
+      "FecalCount": 84,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "9/23/2019",
+      "DryWet": "D",
+      "FecalCount": 3,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "9/23/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "9/23/2019",
+      "DryWet": "D",
+      "FecalCount": 7,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "9/23/2019",
+      "DryWet": "D",
+      "FecalCount": 10,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "9/23/2019",
+      "DryWet": "D",
+      "FecalCount": 11,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "9/23/2019",
+      "DryWet": "D",
+      "FecalCount": 12,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "9/23/2019",
+      "DryWet": "D",
+      "FecalCount": 56,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "9/23/2019",
+      "DryWet": "D",
+      "FecalCount": 240,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "9/17/2019",
+      "DryWet": "D",
+      "FecalCount": 6,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "9/17/2019",
+      "DryWet": "D",
+      "FecalCount": 10,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "9/17/2019",
+      "DryWet": "D",
+      "FecalCount": 12,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "9/17/2019",
+      "DryWet": "D",
+      "FecalCount": 80,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "9/17/2019",
+      "DryWet": "D",
+      "FecalCount": 240,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "9/17/2019",
+      "DryWet": "D",
+      "FecalCount": 1500,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "9/17/2019",
+      "DryWet": "D",
+      "FecalCount": 1710,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "9/16/2019",
+      "DryWet": "D",
+      "FecalCount": 9,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "9/16/2019",
+      "DryWet": "D",
+      "FecalCount": 12,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "9/16/2019",
+      "DryWet": "D",
+      "FecalCount": 12,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "9/16/2019",
+      "DryWet": "D",
+      "FecalCount": 14,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "9/16/2019",
+      "DryWet": "D",
+      "FecalCount": 15,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "9/16/2019",
+      "DryWet": "D",
+      "FecalCount": 20,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "9/16/2019",
+      "DryWet": "D",
+      "FecalCount": 21,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "9/16/2019",
+      "DryWet": "D",
+      "FecalCount": 24,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "9/16/2019",
+      "DryWet": "D",
+      "FecalCount": 30,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "9/16/2019",
+      "DryWet": "D",
+      "FecalCount": 60,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB2",
+      "SampleDate": "9/16/2019",
+      "DryWet": "D",
+      "FecalCount": 170,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82216, 40.66004]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "9/16/2019",
+      "DryWet": "D",
+      "FecalCount": 1440,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "9/12/2019",
+      "DryWet": "D",
+      "FecalCount": 2,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "9/12/2019",
+      "DryWet": "D",
+      "FecalCount": 8,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "9/12/2019",
+      "DryWet": "D",
+      "FecalCount": 40,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "9/12/2019",
+      "DryWet": "D",
+      "FecalCount": 74,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "9/12/2019",
+      "DryWet": "D",
+      "FecalCount": 93,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "9/12/2019",
+      "DryWet": "D",
+      "FecalCount": 600,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "9/12/2019",
+      "DryWet": "D",
+      "FecalCount": 600,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "9/11/2019",
+      "DryWet": "D",
+      "FecalCount": 148,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "9/9/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "9/9/2019",
+      "DryWet": "D",
+      "FecalCount": 7,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "9/9/2019",
+      "DryWet": "D",
+      "FecalCount": 8,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "9/9/2019",
+      "DryWet": "D",
+      "FecalCount": 8,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "9/9/2019",
+      "DryWet": "D",
+      "FecalCount": 11,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "9/9/2019",
+      "DryWet": "D",
+      "FecalCount": 12,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP2",
+      "SampleDate": "9/9/2019",
+      "DryWet": "D",
+      "FecalCount": 12,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.85417, 40.6445]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "9/9/2019",
+      "DryWet": "D",
+      "FecalCount": 16,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "9/9/2019",
+      "DryWet": "D",
+      "FecalCount": 22,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "9/9/2019",
+      "DryWet": "D",
+      "FecalCount": 26,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "9/9/2019",
+      "DryWet": "D",
+      "FecalCount": 36,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "9/9/2019",
+      "DryWet": "D",
+      "FecalCount": 52,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "9/9/2019",
+      "DryWet": "D",
+      "FecalCount": 60,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB3",
+      "SampleDate": "9/9/2019",
+      "DryWet": "D",
+      "FecalCount": 64,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89983, 40.62342]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB2",
+      "SampleDate": "9/9/2019",
+      "DryWet": "D",
+      "FecalCount": 160,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82216, 40.66004]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB2",
+      "SampleDate": "9/9/2019",
+      "DryWet": "D",
+      "FecalCount": 250,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.90967, 40.628]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "9/4/2019",
+      "DryWet": "W",
+      "FecalCount": 24,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "9/4/2019",
+      "DryWet": "W",
+      "FecalCount": 40,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "9/4/2019",
+      "DryWet": "W",
+      "FecalCount": 102,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "9/4/2019",
+      "DryWet": "W",
+      "FecalCount": 144,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "9/4/2019",
+      "DryWet": "W",
+      "FecalCount": 213,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "9/4/2019",
+      "DryWet": "W",
+      "FecalCount": 220,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "9/4/2019",
+      "DryWet": "W",
+      "FecalCount": 240,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "9/4/2019",
+      "DryWet": "W",
+      "FecalCount": 250,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP2",
+      "SampleDate": "9/4/2019",
+      "DryWet": "W",
+      "FecalCount": 270,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.85417, 40.6445]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "9/4/2019",
+      "DryWet": "W",
+      "FecalCount": 283,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "9/4/2019",
+      "DryWet": "W",
+      "FecalCount": 290,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "9/4/2019",
+      "DryWet": "W",
+      "FecalCount": 510,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB3",
+      "SampleDate": "9/4/2019",
+      "DryWet": "W",
+      "FecalCount": 739,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89983, 40.62342]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "9/4/2019",
+      "DryWet": "W",
+      "FecalCount": 980,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB2",
+      "SampleDate": "9/4/2019",
+      "DryWet": "W",
+      "FecalCount": 2300,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.90967, 40.628]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB2",
+      "SampleDate": "9/4/2019",
+      "DryWet": "W",
+      "FecalCount": 3100,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82216, 40.66004]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "9/3/2019",
+      "DryWet": "W",
+      "FecalCount": 210,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "9/3/2019",
+      "DryWet": "W",
+      "FecalCount": 764,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "9/3/2019",
+      "DryWet": "W",
+      "FecalCount": 2200,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "9/3/2019",
+      "DryWet": "W",
+      "FecalCount": 6000,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "9/3/2019",
+      "DryWet": "W",
+      "FecalCount": 6000,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "9/3/2019",
+      "DryWet": "W",
+      "FecalCount": 11400,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "9/3/2019",
+      "DryWet": "W",
+      "FecalCount": 34000,
+      "Month": 8
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "8/29/2019",
+      "DryWet": "W",
+      "FecalCount": 24,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "8/29/2019",
+      "DryWet": "W",
+      "FecalCount": 30,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "8/29/2019",
+      "DryWet": "W",
+      "FecalCount": 232,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "8/29/2019",
+      "DryWet": "W",
+      "FecalCount": 500,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "8/29/2019",
+      "DryWet": "W",
+      "FecalCount": 892,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "8/29/2019",
+      "DryWet": "W",
+      "FecalCount": 2080,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "8/29/2019",
+      "DryWet": "W",
+      "FecalCount": 2365,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "8/29/2019",
+      "DryWet": "W",
+      "FecalCount": 3400,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "8/28/2019",
+      "DryWet": "D",
+      "FecalCount": 6,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "8/28/2019",
+      "DryWet": "D",
+      "FecalCount": 10,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "8/28/2019",
+      "DryWet": "D",
+      "FecalCount": 16,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "8/28/2019",
+      "DryWet": "D",
+      "FecalCount": 28,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "8/28/2019",
+      "DryWet": "D",
+      "FecalCount": 50,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "8/28/2019",
+      "DryWet": "D",
+      "FecalCount": 52,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "8/28/2019",
+      "DryWet": "D",
+      "FecalCount": 54,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "8/27/2019",
+      "DryWet": "D",
+      "FecalCount": 92,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "8/20/2019",
+      "DryWet": "D",
+      "FecalCount": 30,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "8/20/2019",
+      "DryWet": "D",
+      "FecalCount": 64,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "8/20/2019",
+      "DryWet": "D",
+      "FecalCount": 100,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "8/20/2019",
+      "DryWet": "D",
+      "FecalCount": 160,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "8/20/2019",
+      "DryWet": "D",
+      "FecalCount": 220,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "8/20/2019",
+      "DryWet": "D",
+      "FecalCount": 850,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "8/20/2019",
+      "DryWet": "D",
+      "FecalCount": 910,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "8/19/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "8/19/2019",
+      "DryWet": "D",
+      "FecalCount": 5,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "8/19/2019",
+      "DryWet": "D",
+      "FecalCount": 6,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "8/19/2019",
+      "DryWet": "D",
+      "FecalCount": 8,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP2",
+      "SampleDate": "8/19/2019",
+      "DryWet": "D",
+      "FecalCount": 8,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.85417, 40.6445]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "8/19/2019",
+      "DryWet": "D",
+      "FecalCount": 10,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "8/19/2019",
+      "DryWet": "D",
+      "FecalCount": 15,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "8/19/2019",
+      "DryWet": "D",
+      "FecalCount": 15,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "8/19/2019",
+      "DryWet": "D",
+      "FecalCount": 15,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "8/19/2019",
+      "DryWet": "D",
+      "FecalCount": 16,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "8/19/2019",
+      "DryWet": "D",
+      "FecalCount": 40,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "8/19/2019",
+      "DryWet": "D",
+      "FecalCount": 41,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "8/19/2019",
+      "DryWet": "D",
+      "FecalCount": 120,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB2",
+      "SampleDate": "8/19/2019",
+      "DryWet": "D",
+      "FecalCount": 210,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.90967, 40.628]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB3",
+      "SampleDate": "8/19/2019",
+      "DryWet": "D",
+      "FecalCount": 340,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89983, 40.62342]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB2",
+      "SampleDate": "8/19/2019",
+      "DryWet": "D",
+      "FecalCount": 350,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82216, 40.66004]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "8/14/2019",
+      "DryWet": "D",
+      "FecalCount": 105,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "8/13/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "8/13/2019",
+      "DryWet": "D",
+      "FecalCount": 14,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "8/13/2019",
+      "DryWet": "D",
+      "FecalCount": 46,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "8/13/2019",
+      "DryWet": "D",
+      "FecalCount": 74,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "8/13/2019",
+      "DryWet": "D",
+      "FecalCount": 350,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "8/13/2019",
+      "DryWet": "D",
+      "FecalCount": 590,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "8/13/2019",
+      "DryWet": "D",
+      "FecalCount": 850,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "8/12/2019",
+      "DryWet": "D",
+      "FecalCount": 2,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "8/12/2019",
+      "DryWet": "D",
+      "FecalCount": 3,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "8/12/2019",
+      "DryWet": "D",
+      "FecalCount": 5,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "8/12/2019",
+      "DryWet": "D",
+      "FecalCount": 7,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "8/12/2019",
+      "DryWet": "D",
+      "FecalCount": 12,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "8/12/2019",
+      "DryWet": "D",
+      "FecalCount": 13,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "8/12/2019",
+      "DryWet": "D",
+      "FecalCount": 16,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP2",
+      "SampleDate": "8/12/2019",
+      "DryWet": "D",
+      "FecalCount": 18,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.85417, 40.6445]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "8/12/2019",
+      "DryWet": "D",
+      "FecalCount": 20,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "8/12/2019",
+      "DryWet": "D",
+      "FecalCount": 20,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB3",
+      "SampleDate": "8/12/2019",
+      "DryWet": "D",
+      "FecalCount": 34,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89983, 40.62342]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "8/12/2019",
+      "DryWet": "D",
+      "FecalCount": 40,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "8/12/2019",
+      "DryWet": "D",
+      "FecalCount": 90,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "8/12/2019",
+      "DryWet": "D",
+      "FecalCount": 110,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB2",
+      "SampleDate": "8/12/2019",
+      "DryWet": "D",
+      "FecalCount": 144,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.90967, 40.628]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB2",
+      "SampleDate": "8/12/2019",
+      "DryWet": "D",
+      "FecalCount": 1045,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82216, 40.66004]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "8/8/2019",
+      "DryWet": "W",
+      "FecalCount": 1225,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "8/7/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "8/7/2019",
+      "DryWet": "D",
+      "FecalCount": 6,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "8/7/2019",
+      "DryWet": "D",
+      "FecalCount": 68,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "8/7/2019",
+      "DryWet": "D",
+      "FecalCount": 188,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "8/7/2019",
+      "DryWet": "D",
+      "FecalCount": 520,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "8/7/2019",
+      "DryWet": "D",
+      "FecalCount": 540,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "8/7/2019",
+      "DryWet": "D",
+      "FecalCount": 700,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "8/6/2019",
+      "DryWet": "D",
+      "FecalCount": 2,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "8/6/2019",
+      "DryWet": "D",
+      "FecalCount": 5,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "8/6/2019",
+      "DryWet": "D",
+      "FecalCount": 7,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "8/6/2019",
+      "DryWet": "D",
+      "FecalCount": 10,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "8/6/2019",
+      "DryWet": "D",
+      "FecalCount": 16,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "8/6/2019",
+      "DryWet": "D",
+      "FecalCount": 18,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "8/6/2019",
+      "DryWet": "D",
+      "FecalCount": 18,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "8/6/2019",
+      "DryWet": "D",
+      "FecalCount": 24,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "8/6/2019",
+      "DryWet": "D",
+      "FecalCount": 24,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "8/6/2019",
+      "DryWet": "D",
+      "FecalCount": 32,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP2",
+      "SampleDate": "8/6/2019",
+      "DryWet": "D",
+      "FecalCount": 36,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.85417, 40.6445]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "8/6/2019",
+      "DryWet": "D",
+      "FecalCount": 44,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB3",
+      "SampleDate": "8/6/2019",
+      "DryWet": "D",
+      "FecalCount": 64,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89983, 40.62342]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB2",
+      "SampleDate": "8/6/2019",
+      "DryWet": "D",
+      "FecalCount": 100,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82216, 40.66004]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "8/6/2019",
+      "DryWet": "D",
+      "FecalCount": 103,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB2",
+      "SampleDate": "8/6/2019",
+      "DryWet": "D",
+      "FecalCount": 148,
+      "Month": 7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.90967, 40.628]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "7/31/2019",
+      "DryWet": "D",
+      "FecalCount": 592,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "7/30/2019",
+      "DryWet": "D",
+      "FecalCount": 14,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "7/30/2019",
+      "DryWet": "D",
+      "FecalCount": 18,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "7/30/2019",
+      "DryWet": "D",
+      "FecalCount": 48,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "7/30/2019",
+      "DryWet": "D",
+      "FecalCount": 294,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "7/30/2019",
+      "DryWet": "D",
+      "FecalCount": 480,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "7/30/2019",
+      "DryWet": "D",
+      "FecalCount": 900,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "7/30/2019",
+      "DryWet": "D",
+      "FecalCount": 1040,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "7/23/2019",
+      "DryWet": "W",
+      "FecalCount": 56,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "7/23/2019",
+      "DryWet": "W",
+      "FecalCount": 220,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "7/23/2019",
+      "DryWet": "W",
+      "FecalCount": 510,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "7/23/2019",
+      "DryWet": "W",
+      "FecalCount": 22000,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "7/23/2019",
+      "DryWet": "W",
+      "FecalCount": 60000,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "7/23/2019",
+      "DryWet": "W",
+      "FecalCount": 103000,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "7/23/2019",
+      "DryWet": "W",
+      "FecalCount": 149000,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "7/22/2019",
+      "DryWet": "D",
+      "FecalCount": 1,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "7/22/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "7/22/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "7/22/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "7/22/2019",
+      "DryWet": "D",
+      "FecalCount": 5,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "7/22/2019",
+      "DryWet": "D",
+      "FecalCount": 6,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "7/22/2019",
+      "DryWet": "D",
+      "FecalCount": 7,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "7/22/2019",
+      "DryWet": "D",
+      "FecalCount": 12,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "7/22/2019",
+      "DryWet": "D",
+      "FecalCount": 12,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP2",
+      "SampleDate": "7/22/2019",
+      "DryWet": "D",
+      "FecalCount": 17,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.85417, 40.6445]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "7/22/2019",
+      "DryWet": "D",
+      "FecalCount": 23,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "7/22/2019",
+      "DryWet": "D",
+      "FecalCount": 36,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "7/22/2019",
+      "DryWet": "D",
+      "FecalCount": 40,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB3",
+      "SampleDate": "7/22/2019",
+      "DryWet": "D",
+      "FecalCount": 42,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89983, 40.62342]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB2",
+      "SampleDate": "7/22/2019",
+      "DryWet": "D",
+      "FecalCount": 214,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.90967, 40.628]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB2",
+      "SampleDate": "7/22/2019",
+      "DryWet": "D",
+      "FecalCount": 3800,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82216, 40.66004]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "7/17/2019",
+      "DryWet": "D",
+      "FecalCount": 32,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "7/16/2019",
+      "DryWet": "D",
+      "FecalCount": 2,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "7/16/2019",
+      "DryWet": "D",
+      "FecalCount": 2,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "7/16/2019",
+      "DryWet": "D",
+      "FecalCount": 58,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "7/16/2019",
+      "DryWet": "D",
+      "FecalCount": 136,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "7/16/2019",
+      "DryWet": "D",
+      "FecalCount": 140,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "7/16/2019",
+      "DryWet": "D",
+      "FecalCount": 210,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "7/16/2019",
+      "DryWet": "D",
+      "FecalCount": 228,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "7/15/2019",
+      "DryWet": "D",
+      "FecalCount": 1,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "7/15/2019",
+      "DryWet": "D",
+      "FecalCount": 2,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "7/15/2019",
+      "DryWet": "D",
+      "FecalCount": 3,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "7/15/2019",
+      "DryWet": "D",
+      "FecalCount": 3,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "7/15/2019",
+      "DryWet": "D",
+      "FecalCount": 3,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "7/15/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP2",
+      "SampleDate": "7/15/2019",
+      "DryWet": "D",
+      "FecalCount": 8,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.85417, 40.6445]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "7/15/2019",
+      "DryWet": "D",
+      "FecalCount": 10,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "7/15/2019",
+      "DryWet": "D",
+      "FecalCount": 12,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB3",
+      "SampleDate": "7/15/2019",
+      "DryWet": "D",
+      "FecalCount": 24,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89983, 40.62342]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "7/15/2019",
+      "DryWet": "D",
+      "FecalCount": 36,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "7/15/2019",
+      "DryWet": "D",
+      "FecalCount": 39,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "7/15/2019",
+      "DryWet": "D",
+      "FecalCount": 60,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB2",
+      "SampleDate": "7/15/2019",
+      "DryWet": "D",
+      "FecalCount": 84,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.90967, 40.628]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "7/15/2019",
+      "DryWet": "D",
+      "FecalCount": 152,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB2",
+      "SampleDate": "7/15/2019",
+      "DryWet": "D",
+      "FecalCount": 450,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82216, 40.66004]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "7/10/2019",
+      "DryWet": "D",
+      "FecalCount": 216,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "7/9/2019",
+      "DryWet": "D",
+      "FecalCount": 6,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "7/9/2019",
+      "DryWet": "D",
+      "FecalCount": 8,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F5",
+      "SampleDate": "7/9/2019",
+      "DryWet": "D",
+      "FecalCount": 106,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87896, 40.63878]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC1",
+      "SampleDate": "7/9/2019",
+      "DryWet": "D",
+      "FecalCount": 184,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87891, 40.65359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "F1",
+      "SampleDate": "7/9/2019",
+      "DryWet": "D",
+      "FecalCount": 218,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88413, 40.64315]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC2",
+      "SampleDate": "7/9/2019",
+      "DryWet": "D",
+      "FecalCount": 240,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87684, 40.65078]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "7/9/2019",
+      "DryWet": "D",
+      "FecalCount": 680,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "7/8/2019",
+      "DryWet": "D",
+      "FecalCount": 1,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "7/8/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "7/8/2019",
+      "DryWet": "D",
+      "FecalCount": 8,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "7/8/2019",
+      "DryWet": "D",
+      "FecalCount": 11,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "7/8/2019",
+      "DryWet": "D",
+      "FecalCount": 16,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "7/8/2019",
+      "DryWet": "D",
+      "FecalCount": 26,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "7/8/2019",
+      "DryWet": "D",
+      "FecalCount": 32,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "7/8/2019",
+      "DryWet": "D",
+      "FecalCount": 40,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB3",
+      "SampleDate": "7/8/2019",
+      "DryWet": "D",
+      "FecalCount": 44,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89983, 40.62342]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP2",
+      "SampleDate": "7/8/2019",
+      "DryWet": "D",
+      "FecalCount": 62,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.85417, 40.6445]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "7/8/2019",
+      "DryWet": "D",
+      "FecalCount": 82,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "7/8/2019",
+      "DryWet": "D",
+      "FecalCount": 172,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "7/8/2019",
+      "DryWet": "D",
+      "FecalCount": 176,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "7/8/2019",
+      "DryWet": "D",
+      "FecalCount": 360,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "PB2",
+      "SampleDate": "7/8/2019",
+      "DryWet": "D",
+      "FecalCount": 370,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.90967, 40.628]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB2",
+      "SampleDate": "7/8/2019",
+      "DryWet": "D",
+      "FecalCount": 430,
+      "Month": 6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82216, 40.66004]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "6/19/2019",
+      "DryWet": "W",
+      "FecalCount": 520,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "6/18/2019",
+      "DryWet": "D",
+      "FecalCount": 12,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "6/18/2019",
+      "DryWet": "D",
+      "FecalCount": 20,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "6/18/2019",
+      "DryWet": "D",
+      "FecalCount": 28,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "6/18/2019",
+      "DryWet": "D",
+      "FecalCount": 40,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "6/18/2019",
+      "DryWet": "D",
+      "FecalCount": 56,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "6/18/2019",
+      "DryWet": "D",
+      "FecalCount": 64,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "6/18/2019",
+      "DryWet": "D",
+      "FecalCount": 121,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "6/18/2019",
+      "DryWet": "D",
+      "FecalCount": 250,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "6/17/2019",
+      "DryWet": "W",
+      "FecalCount": 4,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "6/17/2019",
+      "DryWet": "W",
+      "FecalCount": 8,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "6/17/2019",
+      "DryWet": "W",
+      "FecalCount": 12,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "6/17/2019",
+      "DryWet": "W",
+      "FecalCount": 20,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "6/17/2019",
+      "DryWet": "W",
+      "FecalCount": 24,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "6/17/2019",
+      "DryWet": "W",
+      "FecalCount": 40,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "6/17/2019",
+      "DryWet": "W",
+      "FecalCount": 88,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "6/5/2019",
+      "DryWet": "D",
+      "FecalCount": 20,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "6/4/2019",
+      "DryWet": "W",
+      "FecalCount": 2,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "6/4/2019",
+      "DryWet": "W",
+      "FecalCount": 16,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "6/4/2019",
+      "DryWet": "W",
+      "FecalCount": 46,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "6/4/2019",
+      "DryWet": "W",
+      "FecalCount": 63,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "6/4/2019",
+      "DryWet": "W",
+      "FecalCount": 172,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "6/4/2019",
+      "DryWet": "W",
+      "FecalCount": 530,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "6/4/2019",
+      "DryWet": "W",
+      "FecalCount": 540,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "6/4/2019",
+      "DryWet": "W",
+      "FecalCount": 540,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "6/3/2019",
+      "DryWet": "W",
+      "FecalCount": 20,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "6/3/2019",
+      "DryWet": "W",
+      "FecalCount": 28,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "6/3/2019",
+      "DryWet": "W",
+      "FecalCount": 30,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "6/3/2019",
+      "DryWet": "W",
+      "FecalCount": 52,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "6/3/2019",
+      "DryWet": "W",
+      "FecalCount": 52,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "6/3/2019",
+      "DryWet": "W",
+      "FecalCount": 390,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "6/3/2019",
+      "DryWet": "W",
+      "FecalCount": 500,
+      "Month": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "5/22/2019",
+      "DryWet": "D",
+      "FecalCount": 30,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "5/21/2019",
+      "DryWet": "D",
+      "FecalCount": 1,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "5/21/2019",
+      "DryWet": "D",
+      "FecalCount": 7,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "5/21/2019",
+      "DryWet": "D",
+      "FecalCount": 8,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "5/21/2019",
+      "DryWet": "D",
+      "FecalCount": 12,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "5/21/2019",
+      "DryWet": "D",
+      "FecalCount": 16,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "5/21/2019",
+      "DryWet": "D",
+      "FecalCount": 32,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "5/21/2019",
+      "DryWet": "D",
+      "FecalCount": 80,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "5/21/2019",
+      "DryWet": "D",
+      "FecalCount": 200,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "5/20/2019",
+      "DryWet": "D",
+      "FecalCount": 2,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "5/20/2019",
+      "DryWet": "D",
+      "FecalCount": 3,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "5/20/2019",
+      "DryWet": "D",
+      "FecalCount": 5,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "5/20/2019",
+      "DryWet": "D",
+      "FecalCount": 7,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "5/20/2019",
+      "DryWet": "D",
+      "FecalCount": 10,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "5/20/2019",
+      "DryWet": "D",
+      "FecalCount": 20,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "5/20/2019",
+      "DryWet": "D",
+      "FecalCount": 36,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "5/8/2019",
+      "DryWet": "W",
+      "FecalCount": 80,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "5/7/2019",
+      "DryWet": "W",
+      "FecalCount": 8,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "5/7/2019",
+      "DryWet": "W",
+      "FecalCount": 12,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "5/7/2019",
+      "DryWet": "W",
+      "FecalCount": 38,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "5/7/2019",
+      "DryWet": "W",
+      "FecalCount": 50,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "5/7/2019",
+      "DryWet": "W",
+      "FecalCount": 144,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "5/7/2019",
+      "DryWet": "W",
+      "FecalCount": 192,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "5/7/2019",
+      "DryWet": "W",
+      "FecalCount": 568,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "5/7/2019",
+      "DryWet": "W",
+      "FecalCount": 2200,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "5/6/2019",
+      "DryWet": "W",
+      "FecalCount": 10,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "5/6/2019",
+      "DryWet": "W",
+      "FecalCount": 28,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "5/6/2019",
+      "DryWet": "W",
+      "FecalCount": 44,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "5/6/2019",
+      "DryWet": "W",
+      "FecalCount": 48,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "5/6/2019",
+      "DryWet": "W",
+      "FecalCount": 48,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "5/6/2019",
+      "DryWet": "W",
+      "FecalCount": 72,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "5/6/2019",
+      "DryWet": "W",
+      "FecalCount": 92,
+      "Month": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "4/10/2019",
+      "DryWet": "Dry",
+      "FecalCount": 1,
+      "Month": 3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "4/10/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "4/10/2019",
+      "DryWet": "Dry",
+      "FecalCount": 66,
+      "Month": 3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "4/9/2019",
+      "DryWet": "D",
+      "FecalCount": 64,
+      "Month": 3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "4/9/2019",
+      "DryWet": "D",
+      "FecalCount": 132,
+      "Month": 3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "4/9/2019",
+      "DryWet": "D",
+      "FecalCount": 188,
+      "Month": 3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "4/9/2019",
+      "DryWet": "D",
+      "FecalCount": 390,
+      "Month": 3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "4/9/2019",
+      "DryWet": "D",
+      "FecalCount": 460,
+      "Month": 3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "4/8/2019",
+      "DryWet": "W",
+      "FecalCount": 4,
+      "Month": 3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "4/8/2019",
+      "DryWet": "W",
+      "FecalCount": 4,
+      "Month": 3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "4/8/2019",
+      "DryWet": "W",
+      "FecalCount": 4,
+      "Month": 3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "4/8/2019",
+      "DryWet": "W",
+      "FecalCount": 12,
+      "Month": 3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "4/8/2019",
+      "DryWet": "W",
+      "FecalCount": 12,
+      "Month": 3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "4/8/2019",
+      "DryWet": "W",
+      "FecalCount": 20,
+      "Month": 3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "4/8/2019",
+      "DryWet": "W",
+      "FecalCount": 30,
+      "Month": 3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "3/13/2019",
+      "DryWet": "D",
+      "FecalCount": 6,
+      "Month": 2
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "3/12/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 2
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "3/12/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 2
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "3/12/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 2
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "3/12/2019",
+      "DryWet": "D",
+      "FecalCount": 10,
+      "Month": 2
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "3/12/2019",
+      "DryWet": "D",
+      "FecalCount": 12,
+      "Month": 2
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "3/12/2019",
+      "DryWet": "D",
+      "FecalCount": 12,
+      "Month": 2
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "3/11/2019",
+      "DryWet": "W",
+      "FecalCount": 4,
+      "Month": 2
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "3/11/2019",
+      "DryWet": "W",
+      "FecalCount": 4,
+      "Month": 2
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "3/11/2019",
+      "DryWet": "W",
+      "FecalCount": 4,
+      "Month": 2
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "3/11/2019",
+      "DryWet": "W",
+      "FecalCount": 10,
+      "Month": 2
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "3/11/2019",
+      "DryWet": "W",
+      "FecalCount": 16,
+      "Month": 2
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "3/11/2019",
+      "DryWet": "W",
+      "FecalCount": 24,
+      "Month": 2
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "3/11/2019",
+      "DryWet": "W",
+      "FecalCount": 40,
+      "Month": 2
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "2/28/2019",
+      "DryWet": "D",
+      "FecalCount": 1,
+      "Month": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "2/28/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "2/28/2019",
+      "DryWet": "D",
+      "FecalCount": 6,
+      "Month": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "2/28/2019",
+      "DryWet": "D",
+      "FecalCount": 16,
+      "Month": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "2/28/2019",
+      "DryWet": "D",
+      "FecalCount": 20,
+      "Month": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "2/28/2019",
+      "DryWet": "D",
+      "FecalCount": 100,
+      "Month": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "2/21/2019",
+      "DryWet": "W",
+      "FecalCount": 95,
+      "Month": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "2/21/2019",
+      "DryWet": "W",
+      "FecalCount": 188,
+      "Month": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "2/20/2019",
+      "DryWet": "D",
+      "FecalCount": 1,
+      "Month": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "2/20/2019",
+      "DryWet": "D",
+      "FecalCount": 2,
+      "Month": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "2/20/2019",
+      "DryWet": "D",
+      "FecalCount": 3,
+      "Month": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "2/20/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "2/20/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "2/20/2019",
+      "DryWet": "D",
+      "FecalCount": 6,
+      "Month": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "2/20/2019",
+      "DryWet": "D",
+      "FecalCount": 20,
+      "Month": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "2/6/2019",
+      "DryWet": "D",
+      "FecalCount": 20,
+      "Month": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "SP1",
+      "SampleDate": "1/15/2019",
+      "DryWet": "D",
+      "FecalCount": 84,
+      "Month": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86029, 40.65507]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J12",
+      "SampleDate": "1/14/2019",
+      "DryWet": "D",
+      "FecalCount": 3,
+      "Month": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80633, 40.633]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "N9A",
+      "SampleDate": "1/14/2019",
+      "DryWet": "D",
+      "FecalCount": 3,
+      "Month": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9355, 40.56783]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J8",
+      "SampleDate": "1/14/2019",
+      "DryWet": "D",
+      "FecalCount": 4,
+      "Month": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J5",
+      "SampleDate": "1/14/2019",
+      "DryWet": "D",
+      "FecalCount": 8,
+      "Month": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.809, 40.59767]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J7",
+      "SampleDate": "1/14/2019",
+      "DryWet": "D",
+      "FecalCount": 8,
+      "Month": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82083, 40.64533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "JA1",
+      "SampleDate": "1/14/2019",
+      "DryWet": "D",
+      "FecalCount": 10,
+      "Month": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.813, 40.643]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J11",
+      "SampleDate": "1/14/2019",
+      "DryWet": "D",
+      "FecalCount": 250,
+      "Month": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93133, 40.58167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "BB4",
+      "SampleDate": "1/14/2019",
+      "DryWet": "D",
+      "FecalCount": 775,
+      "Month": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82316, 40.65164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J10",
+      "SampleDate": "1/8/2019",
+      "DryWet": "W",
+      "FecalCount": 4,
+      "Month": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.89472, 40.62167]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J14",
+      "SampleDate": "1/8/2019",
+      "DryWet": "W",
+      "FecalCount": 4,
+      "Month": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.82378, 40.60917]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J16",
+      "SampleDate": "1/8/2019",
+      "DryWet": "W",
+      "FecalCount": 4,
+      "Month": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84761, 40.61143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J2",
+      "SampleDate": "1/8/2019",
+      "DryWet": "W",
+      "FecalCount": 4,
+      "Month": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88583, 40.60805]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J9A",
+      "SampleDate": "1/8/2019",
+      "DryWet": "W",
+      "FecalCount": 4,
+      "Month": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.87367, 40.63383]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "J3",
+      "SampleDate": "1/8/2019",
+      "DryWet": "W",
+      "FecalCount": 8,
+      "Month": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.88283, 40.627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "SampleLocation": "HC3",
+      "SampleDate": "1/8/2019",
+      "DryWet": "W",
+      "FecalCount": 10,
+      "Month": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.86756, 40.63856]
     }
   }]
 }

@@ -20,7 +20,24 @@ body {
   font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
   position: absolute;
   width: 25%;
+  text-align: center;
   top: 0;
   left: 0;
   padding: 10px;
+}
+
+#slider {
+  width: 75%;
+}
+
+.row {
+  display: inline-block;
+  height: 20px;
+  width: 75%;
+
+}
+
+.colors {
+  background: linear-gradient(to right, green, yellow, orange, red);
+  margin-bottom: 5px;
 }

@@ -1,8 +1,8 @@
 // this is Wayne's mapboxGL token
 mapboxgl.accessToken = 'pk.eyJ1Ijoid2F5bmVwYWNpbGVvIiwiYSI6ImNrNm9jc281YzA4enEza21pdDcybjFybWgifQ.AETmAWEwFz3mIrpMCDGsGQ';
-
-var initialCenterPoint = [-73.913042, 40.599552]
-var initialZoom = 11
+// set intial map zoom
+var initialCenterPoint = [-73.913042, 40.59999]
+var initialZoom = 11.25
 
 var initOptions = {
   container: 'map-container', // put the map in this container
@@ -13,6 +13,7 @@ var initOptions = {
 
 var map = new mapboxgl.Map(initOptions);
 
+// add navigation control
 map.addControl(new mapboxgl.NavigationControl());
 
 //assign map markers from dataset
@@ -26,6 +27,8 @@ map.addControl(new mapboxgl.NavigationControl());
 //})
 //add map layer of circles for test locations
 map.on('style.load', function() {
+        // change water color to blue
+        //map.setPaintProperty('water', 'fill-color', '#a4bee8')
 
         //add geojson data for test locations
         map.addSource('circleData', {
@@ -38,24 +41,34 @@ map.on('style.load', function() {
           type: 'circle',
           source: 'circleData',
           paint: {
-            'circle-color': 'brown',
-            'circle-radius': {
-              property: 'fecalLevel',
+            'circle-color': {
+              property: 'FecalCount',
               stops: [
-                [0, 10],
-                [300, 20],
-                [700, 30],
-                [1000, 40],
+                [0, 'green'],
+                [200, 'yellow'],
+                [700, 'orange'],
+                [1500, 'red'],
               ]
             },
-            'circle-stroke-width': 1,
-            'circle-stroke-color': 'black',
+            'circle-radius': 20,
+            //{
+              //property: 'FecalCount',
+              //stops: [
+              //  [0, 5],
+              //  [700, 20],
+              //  [1000, 40],
+            //  ]
+            //},
+            //'circle-stroke-width': 1,
+            //'circle-stroke-color': 'black',
           }
         })
-        map.setFilter('data', ['==', 'hour', 20]);
+        // set default filter
+        map.setFilter('data', ['==', 'Month', 0]);
+        // connect slider to data with listener
         document.getElementById('slider').addEventListener('input', function(e) {
-          var hour = parseInt(e.target.value);
+          var month = parseInt(e.target.value);
           //update the map
-          map.setFilter('data', ['==', ['number', ['get', 'hour']], hour]);
+          map.setFilter('data', ['==', ['number', ['get', 'Month']], month]);
         })
       })
