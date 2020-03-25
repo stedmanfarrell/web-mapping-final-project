@@ -16,59 +16,65 @@ var map = new mapboxgl.Map(initOptions);
 // add navigation control
 map.addControl(new mapboxgl.NavigationControl());
 
-//assign map markers from dataset
-//testlocationData.forEach(function(locationEntry) {
-//  console.log(locationEntry.shortName, locationEntry.lat)
-//  new mapboxgl.Marker()
-//    .setLngLat([locationEntry.lng, locationEntry.lat])
-//    .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-//    .setHTML(`${locationEntry.longName}, ${locationEntry.lng}, ${locationEntry.lat}`))
-//    .addTo(map);
-//})
-//add map layer of circles for test locations
-map.on('style.load', function() {
-        // change water color to blue
-        //map.setPaintProperty('water', 'fill-color', '#a4bee8')
+// disable map zoom when using scroll
+map.scrollZoom.disable();
 
-        //add geojson data for test locations
-        map.addSource('circleData', {
-          type: 'geojson',
-          data: './map.geojson',
-        })
-        // styling for circles
-        map.addLayer({
-          id: 'data',
-          type: 'circle',
-          source: 'circleData',
-          paint: {
-            'circle-color': {
-              property: 'FecalCount',
-              stops: [
-                [0, 'green'],
-                [200, 'yellow'],
-                [700, 'orange'],
-                [1500, 'red'],
-              ]
-            },
-            'circle-radius': 20,
-            //{
-              //property: 'FecalCount',
-              //stops: [
-              //  [0, 5],
-              //  [700, 20],
-              //  [1000, 40],
-            //  ]
-            //},
-            //'circle-stroke-width': 1,
-            //'circle-stroke-color': 'black',
-          }
-        })
-        // set default filter
-        map.setFilter('data', ['==', 'Month', 0]);
-        // connect slider to data with listener
-        document.getElementById('slider').addEventListener('input', function(e) {
-          var month = parseInt(e.target.value);
-          //update the map
-          map.setFilter('data', ['==', ['number', ['get', 'Month']], month]);
-        })
-      })
+map.on("load", function() {
+  map.loadImage("./waste-sewer.png", function(error, image) {
+    if (error) throw error;
+    map.addImage("custom-marker", image);
+
+    map.addSource('sewerData', {
+      type: 'geojson',
+      data: './sewer.geojson',
+    });
+    map.addLayer({
+      id: "markers",
+      type: "symbol",
+      source: 'sewerData',
+      layout: {
+        "icon-image": "custom-marker",
+        "icon-size": .06,
+      }
+    });
+  });
+});
+
+map.on('style.load', function() {
+  //add geojson data for test locations
+  map.addSource('circleData', {
+    type: 'geojson',
+    data: './waterquality2019.geojson',
+  })
+  // styling for circles
+  map.addLayer({
+    id: 'data',
+    type: 'circle',
+    source: 'circleData',
+    paint: {
+      // style circle color based on level of pollution
+      'circle-color': {
+        property: 'FecalCount',
+        stops: [
+          [0, 'green'],
+          [200, 'yellow'],
+          [700, 'orange'],
+          [1500, 'red'],
+        ]
+      },
+      'circle-radius': 20,
+      'circle-opacity': 0.8,
+      'circle-stroke-width': .5,
+      'circle-stroke-color': 'black',
+    }
+  })
+  // set default filter
+  map.setFilter('data', ['==', 'Month', 13]);
+  // connect slider to data with listener
+  document.getElementById('slider').addEventListener('input', function(e) {
+    var month = parseInt(e.target.value);
+    //update the map
+    map.setFilter('data', ['==', ['number', ['get', 'Month']], month]);
+    $('#month').html(`${month}`)
+  })
+})

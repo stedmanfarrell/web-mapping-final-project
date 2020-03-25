@@ -19,11 +19,26 @@ body {
 .map-overlay {
   font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
   position: absolute;
-  width: 25%;
+  width: 27%;
   text-align: center;
   top: 0;
   left: 0;
   padding: 10px;
+  background-color: white;
+}
+.wrapper1 {
+  display: grid;
+  grid-template-columns: 20% 15% 65%;
+}
+.wrapper2 {
+  display: grid;
+  grid-template-columns: 20% 15% 65%;
+  grid-template-rows: 40px 40px 40px 40px;
+}
+
+.legend {
+  text-align: left;
+  font-size: 15px;
 }
 
 #slider {
@@ -40,4 +55,11 @@ body {
 .colors {
   background: linear-gradient(to right, green, yellow, orange, red);
   margin-bottom: 5px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
 }
