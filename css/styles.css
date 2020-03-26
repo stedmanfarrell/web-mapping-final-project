@@ -29,13 +29,14 @@ body {
 
 .wrapperuber {
   display: grid;
-  grid-template-rows: 15% 35% 10% 25% 15%;
+  grid-template-rows: 13% 35% 10% 23% 15% 5%;
   height: 100%;
 }
 
 .wrapper1 {
   padding: 15px;
   font-size: 15px;
+  padding-top: 4px;
 }
 
 .wrapper2 {
