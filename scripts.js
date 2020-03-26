@@ -1,7 +1,7 @@
 // this is Wayne's mapboxGL token
 mapboxgl.accessToken = 'pk.eyJ1Ijoid2F5bmVwYWNpbGVvIiwiYSI6ImNrNm9jc281YzA4enEza21pdDcybjFybWgifQ.AETmAWEwFz3mIrpMCDGsGQ';
 // set intial map zoom
-var initialCenterPoint = [-73.913042, 40.59999]
+var initialCenterPoint = [-73.8666, 40.59999]
 var initialZoom = 11.25
 
 var initOptions = {
@@ -15,6 +15,9 @@ var map = new mapboxgl.Map(initOptions);
 
 // add navigation control
 map.addControl(new mapboxgl.NavigationControl());
+
+//load minimap
+map.addControl(new mapboxgl.Minimap(), 'bottom-right');
 
 // disable map zoom when using scroll
 map.scrollZoom.disable();
@@ -58,7 +61,8 @@ map.on('style.load', function() {
         stops: [
           [0, 'green'],
           [200, 'yellow'],
-          [700, 'orange'],
+          [500, 'orange'],
+          [1000, 'red'],
           [1500, 'red'],
         ]
       },
@@ -68,13 +72,29 @@ map.on('style.load', function() {
       'circle-stroke-color': 'black',
     }
   })
+//assign month to months
+var months = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December'
+];
   // set default filter
-  map.setFilter('data', ['==', 'Month', 13]);
+  map.setFilter('data', ['==', 'Month', 0]);
   // connect slider to data with listener
   document.getElementById('slider').addEventListener('input', function(e) {
     var month = parseInt(e.target.value);
     //update the map
     map.setFilter('data', ['==', ['number', ['get', 'Month']], month]);
-    $('#month').html(`${month}`)
+    //display month on sidebar
+    document.getElementById('month').textContent = months[month];
   })
 })

@@ -15,29 +15,50 @@
   <div id='map-container'></div>
 
   <div class="map-overlay">
-    <h1>Jamaica Bay <p>Water Quality 2019</h1>
-    <div class="wrapper1">
-
+    <div class="wrapperuber">
+      <div class="wrapper1">
+        <h1>Jamaica Bay <p>Water Quality 2019</h1>
+      </div>
+      <div class="wrapper2">
+        Much of New York City has a combined sewer system. Sewage from homes
+        and storm drains travel in the same pipes and are treated together. When there is too
+        much flow to treat, like during a rainstorm, overflow is diverted into local waterways
+        through combined sewer overflow pipes.
+        <p>
+            The overflow pours into the tidal estuaries surrounding Jamaica Bay.
+            This causes high levels of bacteria, particulary in the summer months.
+            <p>
+              <h3>Move the slider to see pollution readings by month.</h3>
+      </div>
+      <div class="wrapper3">
+        <input id="slider" type="range" min="0" max="11" step="1" value="0" />
+        <div id='month'>January</div>
+      </div>
+      <div class="wrapper4">
+        <div></div>
+        <div class="dot"><img src="waste-sewer.png" style="width:25px;height:25px;"></div>
+        <div class='legend'>= Combined Sewer Overflow Pipe</div>
+        <div></div>
+        <div class="dot" style="background-color:green;"></div>
+        <div class="legend"> = NYC Clean!</div>
+        <div></div>
+        <div class="dot" style="background-color:yellow;"></div>
+        <div class="legend"> = Swimming Prohibited by Law</div>
+        <div></div>
+        <div class="dot" style="background-color:red;"></div>
+        <div class="legend"> = Yes, that smell is the water...</div>
+      </div>
+      <div class="wrapper5">
+        <div class="legend" style="text-align: center;">Fecal Coliforms per 100ml</div>
+        <div class='row colors'></div>
+        <div class='colorlegend'>
+          <div>0</div>
+          <div>200</div>
+          <div>500</div>
+          <div>1000+</div>
+        </div>
+      </div>
     </div>
-    <input id="slider" type="range" min="0" max="11" step="1" value="0" />
-    <div id='month'></div>
-
-    <div class="wrapper2">
-      <div></div>
-      <div class="dot"><img src="waste-sewer.png" style="width:25px;height:25px;"></div>
-      <div class='legend'>= Combined Sewer Overflow Pipe</div>
-      <div></div>
-      <div class="dot" style="background-color:green;"></div>
-      <div class="legend"> = No Restrictions</div>
-      <div></div>
-      <div class="dot" style="background-color:yellow;"></div>
-      <div class="legend"> = Swimming Prohibited</div>
-      <div></div>
-      <div class="dot" style="background-color:red;"></div>
-      <div class="legend"> = HazMat Suit Required...</div>
-    </div>
-    <div class="legend" style="text-align: center;">Fecal Coliforms per 100ml</div>
-    <div class='row colors'></div>
   </div>
 
 
@@ -45,6 +66,7 @@
 
   <!-- Load mapboxGL, jQuery, then our local javascript files -->
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
+  <script type="text/javascript" src="mapboxgl-control-minimap.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src='data.js'></script>
   <script src='scripts.js'></script>

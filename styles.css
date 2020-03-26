@@ -13,24 +13,35 @@ body {
   top: 0;
   bottom: 0;
   right: 0;
-  left: 0;
+  left: 31%;
 }
 
 .map-overlay {
   font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
   position: absolute;
-  width: 27%;
+  width: 30%;
+  height: 100%;
   text-align: center;
   top: 0;
   left: 0;
-  padding: 10px;
   background-color: white;
 }
-.wrapper1 {
+.wrapperuber {
   display: grid;
-  grid-template-columns: 20% 15% 65%;
+  grid-template-rows: 15% 35% 10% 25% 15%;
+  height: 100%;
 }
+.wrapper1 {
+  padding: 15px;
+  font-size: 15px;
+}
+
 .wrapper2 {
+  padding: 20px;
+  font-size: 13.5px;
+  text-align: justify;
+}
+.wrapper4 {
   display: grid;
   grid-template-columns: 20% 15% 65%;
   grid-template-rows: 40px 40px 40px 40px;
@@ -43,6 +54,9 @@ body {
 
 #slider {
   width: 75%;
+}
+#month {
+  font-size: 20px;
 }
 
 .row {
@@ -62,4 +76,9 @@ body {
   width: 25px;
   border-radius: 50%;
   display: inline-block;
+}
+
+.colorlegend {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
 }
