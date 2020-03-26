@@ -26,11 +26,13 @@ body {
   left: 0;
   background-color: white;
 }
+
 .wrapperuber {
   display: grid;
   grid-template-rows: 15% 35% 10% 25% 15%;
   height: 100%;
 }
+
 .wrapper1 {
   padding: 15px;
   font-size: 15px;
@@ -41,6 +43,7 @@ body {
   font-size: 13.5px;
   text-align: justify;
 }
+
 .wrapper4 {
   display: grid;
   grid-template-columns: 20% 15% 65%;
@@ -50,11 +53,13 @@ body {
 .legend {
   text-align: left;
   font-size: 15px;
+  padding-top: 4.5px;
 }
 
 #slider {
   width: 75%;
 }
+
 #month {
   font-size: 20px;
 }
@@ -63,7 +68,6 @@ body {
   display: inline-block;
   height: 20px;
   width: 75%;
-
 }
 
 .colors {

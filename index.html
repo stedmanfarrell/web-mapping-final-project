@@ -6,7 +6,7 @@
   <title></title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css' rel='stylesheet' />
-  <link href='styles.css' rel='stylesheet' />
+  <link href='css/styles.css' rel='stylesheet' />
 </head>
 
 <body>
@@ -25,10 +25,10 @@
         much flow to treat, like during a rainstorm, overflow is diverted into local waterways
         through combined sewer overflow pipes.
         <p>
-            The overflow pours into the tidal estuaries surrounding Jamaica Bay.
-            This causes high levels of bacteria, particulary in the summer months.
-            <p>
-              <h3>Move the slider to see pollution readings by month.</h3>
+          The overflow pours into the tidal estuaries surrounding Jamaica Bay.
+          This causes high levels of bacteria, particulary in the summer months.
+          <p>
+            <h3>Move the slider to see pollution readings by month.</h3>
       </div>
       <div class="wrapper3">
         <input id="slider" type="range" min="0" max="11" step="1" value="0" />
@@ -36,7 +36,7 @@
       </div>
       <div class="wrapper4">
         <div></div>
-        <div class="dot"><img src="waste-sewer.png" style="width:25px;height:25px;"></div>
+        <div class="dot"><img src="images/waste-sewer.png" style="width:25px;height:25px;"></div>
         <div class='legend'>= Combined Sewer Overflow Pipe</div>
         <div></div>
         <div class="dot" style="background-color:green;"></div>
@@ -49,7 +49,7 @@
         <div class="legend"> = Yes, that smell is the water...</div>
       </div>
       <div class="wrapper5">
-        <div class="legend" style="text-align: center;">Fecal Coliforms per 100ml</div>
+        <div class="legend" style="text-align: center; padding-bottom: 20px;">Fecal Coliforms per 100ml</div>
         <div class='row colors'></div>
         <div class='colorlegend'>
           <div>0</div>
@@ -61,15 +61,12 @@
     </div>
   </div>
 
-
-
-
-  <!-- Load mapboxGL, jQuery, then our local javascript files -->
+  <!-- Load mapboxGL, jQuery, minimap, then our local javascript files -->
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
-  <script type="text/javascript" src="mapboxgl-control-minimap.js"></script>
+  <script type="text/javascript" src="js/mapboxgl-control-minimap.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src='data.js'></script>
-  <script src='scripts.js'></script>
+  <script src='data/data.js'></script>
+  <script src='js/scripts.js'></script>
 
 </body>
 

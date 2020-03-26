@@ -1,5 +1,6 @@
 // this is Wayne's mapboxGL token
 mapboxgl.accessToken = 'pk.eyJ1Ijoid2F5bmVwYWNpbGVvIiwiYSI6ImNrNm9jc281YzA4enEza21pdDcybjFybWgifQ.AETmAWEwFz3mIrpMCDGsGQ';
+
 // set intial map zoom
 var initialCenterPoint = [-73.8666, 40.59999]
 var initialZoom = 11.25
@@ -22,14 +23,14 @@ map.addControl(new mapboxgl.Minimap(), 'bottom-right');
 // disable map zoom when using scroll
 map.scrollZoom.disable();
 
+// load sewer icons
 map.on("load", function() {
-  map.loadImage("./waste-sewer.png", function(error, image) {
+  map.loadImage("images/waste-sewer.png", function(error, image) {
     if (error) throw error;
     map.addImage("custom-marker", image);
-
     map.addSource('sewerData', {
       type: 'geojson',
-      data: './sewer.geojson',
+      data: 'data/sewer.geojson',
     });
     map.addLayer({
       id: "markers",
@@ -42,12 +43,11 @@ map.on("load", function() {
     });
   });
 });
-
+//add geojson data for test locations
 map.on('style.load', function() {
-  //add geojson data for test locations
   map.addSource('circleData', {
     type: 'geojson',
-    data: './waterquality2019.geojson',
+    data: 'data/waterquality2019.geojson',
   })
   // styling for circles
   map.addLayer({
@@ -72,27 +72,27 @@ map.on('style.load', function() {
       'circle-stroke-color': 'black',
     }
   })
-//assign month to months
-var months = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December'
-];
-  // set default filter
+  //assign month to months to display position of slider
+  var months = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December'
+  ];
+  // set default filter for which data to load
   map.setFilter('data', ['==', 'Month', 0]);
   // connect slider to data with listener
   document.getElementById('slider').addEventListener('input', function(e) {
     var month = parseInt(e.target.value);
-    //update the map
+    //update the map according to postion of slider
     map.setFilter('data', ['==', ['number', ['get', 'Month']], month]);
     //display month on sidebar
     document.getElementById('month').textContent = months[month];
