@@ -1,6 +1,8 @@
 Jamaica Bay Water Quality 2019
 
-This project is a final project for the Advanced GIS class at NYU's Wagner
+View it as: https://stedmanfarrell.github.io/web-mapping-final-project/
+
+This is a final project for the Advanced GIS class at NYU's Wagner
 School of Public Policy.  Professor Chris Whong.
 
 The goal was to map water pollution readings from NYC's Jamaica Bay over time in
