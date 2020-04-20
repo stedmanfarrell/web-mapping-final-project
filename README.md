@@ -1,6 +1,6 @@
 Jamaica Bay Water Quality 2019
 
-View it as: https://stedmanfarrell.github.io/web-mapping-final-project/
+View it at: https://stedmanfarrell.github.io/web-mapping-final-project/
 
 This is a final project for the Advanced GIS class at NYU's Wagner
 School of Public Policy.  Professor Chris Whong.
